@@ -1,0 +1,45 @@
+#OutputContainer {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  display: none;
+}
+#image1 {
+  margin-right: 20px;
+}
+.Input-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+#input-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+}
+#inputbox {
+  font-size: 20px;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+#inputboxSearch {
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 6px 10px;
+  font-size: 15px;
+  background-color: #1e82d4;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: bold;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Github Stats</title>
+  </head>
+  <body>
+    <div class="Input-container">
+        <h1 id="header">GITHUB STATS CHECKER</h1>
+        <p id="input-header">Enter the Github username:</p>
+        <div><input id="inputbox"></input><button id="inputboxSearch">submit</button></div>
+    </div>
+    <div id="OutputContainer">
+      <img
+        id="image1"
+        height="500em"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayankaGulati&langs_count=8"
+      />
+      <img
+        id="image2"
+        height="500em"
+        src="https://github-readme-stats.vercel.app/api?username=MayankaGulati&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
